@@ -1,7 +1,5 @@
 # Unit Testing in Solidity
 
-## [5. Testing Contract](https://hardhat.org/tutorial/testing-contracts.html)
-
 <hr />
 
 ## Commands used:
@@ -31,3 +29,5 @@ npx hardhat
 npx hardhat compile
 npx hardhat test
 ```
+
+## [5. Testing Contract](https://hardhat.org/tutorial/testing-contracts.html)
