@@ -1,15 +1,33 @@
-# Basic Sample Hardhat Project
+# Unit Testing in Solidity
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## [5. Testing Contract](https://hardhat.org/tutorial/testing-contracts.html)
 
-Try running some of the following tasks:
+<hr />
 
-```shell
-npx hardhat accounts
+## Commands used:
+
+### 1. Create a new folder somewhere (Desktop)
+```
+cd Desktop
+mkdir Hardhat_Testing
+cd Hardhat_Testing
+```
+
+### 2. Initialize npm and install `hardhat`
+```
+npm init -y
+npm install hardhat --save-dev
+```
+
+### 3. Setup Hardhat in the folder
+```
+npx hardhat
+
+[Select yes for all questions]
+```
+
+### 4. Run testing
+```
 npx hardhat compile
-npx hardhat clean
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
